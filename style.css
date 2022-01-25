@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: black;
+    padding: 50px;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-size: 3em;
+    font-family: cursive;
+    font-size: 5vh;
+}
+
+header > p {
+    color: grey;
+    font-size: 1.8vh;
+    min-width: 100px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+main p {
+    text-align: left;
+    margin: 20px;
+    font-family: cursive;
+    max-width: 700px;
+    padding: 10px;
+    font-size: 3vh;
+}
+div {
+    box-shadow: 1px 1px 15px black inset;
+}
+div > p {
+    background-color: rgba(0, 0, 0, 0.226);
+    display: inline-block;
+    border-radius: 10px;
+    color: white;
+}
+
+#flor {
+    background: black url(imagens/flores.jpg) center center no-repeat fixed;
+    background-size: cover;
+}
+
+#cartas {
+    background: black url(imagens/carta.jpg) center center no-repeat fixed;
+    background-size: cover;
+}
+footer {
+    text-align: center;
+    background-color: black;
+    color: grey;
+    padding: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
