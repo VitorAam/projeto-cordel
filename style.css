@@ -45,10 +45,11 @@ div {
     box-shadow: 1px 1px 15px black inset;
 }
 div > p {
-    background-color: rgba(0, 0, 0, 0.226);
+    background-color: rgba(0, 0, 0, 0.39);
     display: inline-block;
     border-radius: 10px;
     color: white;
+    text-shadow: 1px 1px 0px black;
     
 }
 
